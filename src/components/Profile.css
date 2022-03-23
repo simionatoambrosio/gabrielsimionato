@@ -1,0 +1,24 @@
+#my-picture {
+    border-radius: 50%;
+    width: 220px;
+    border: solid 5px #8000FF;
+}
+
+.Profile h1 {
+    font-size: 3.6rem;
+}
+
+.Profile span {
+    color: #8000FF;
+    font-weight: 600;
+}
+
+#description {
+    min-width: 300px;
+}
+
+.Profile p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

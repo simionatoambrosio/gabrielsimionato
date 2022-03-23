@@ -1,38 +1,57 @@
 .App {
   text-align: center;
 }
+ html {
+   /* 1rem é igual a 10px */
+   font-size: 62.5%;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ h1 {
+   font-size: 3.2rem;
+ }
+
+ h3 {
+   font-size: 2.4rem;
+ }
+
+ p {
+   font-size: 2rem;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+  margin: 2% 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  color: #101010;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+  body {
+    margin: 1% 5%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:767px){
+  body {
+    margin: 10px 5%;
   }
-  to {
-    transform: rotate(360deg);
+
+  html {
+    /* 1rem é igual a 8px */
+    font-size: 50%;
   }
 }

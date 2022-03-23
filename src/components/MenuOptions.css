@@ -1,0 +1,52 @@
+.MenuOptions ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: space-around;
+
+    padding: 1rem;
+    margin-top: 3rem;
+
+    background-color: #ECDAFF;
+    border-radius: 10px;
+    
+}
+
+.MenuOptions li {
+    font-size: 2.2rem;
+}
+
+.MenuOptions a {
+    position: relative;
+    text-decoration: none;
+    color: #8000ff;
+    padding: 0 10px;
+}
+
+.MenuOptions a:after {
+    content: "";
+    position: absolute;
+    background-color: #8000ff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.MenuOptions a:hover:after {
+    width: 100%;
+    
+}
+
+@media screen and (max-width:767px){
+    .MenuOptions ul {
+        flex-direction: column;
+    }
+
+    .MenuOptions li {
+        margin: 1rem;
+    }
+  }
