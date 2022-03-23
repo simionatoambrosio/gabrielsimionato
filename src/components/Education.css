@@ -3,3 +3,53 @@
 
     text-align: left;
 }
+
+.Fatec, .Etec, .Objetivo {
+    display: flex;
+    flex-direction: row;
+}
+
+.education-logo {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.education-description p {
+    margin: 10px;
+}
+
+.education-description h4 {
+    margin: 0 0 0 10px;
+}
+
+
+.Fatec img, .Objetivo img{
+    max-width: 150px;
+    min-width: 150px;
+    margin-right: 30px;
+}
+
+.Etec img {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .Fatec {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  
+  @media screen and (max-width:767px){
+    .Fatec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fatec-description p {
+        margin: 0px;
+    }
+  }

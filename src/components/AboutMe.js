@@ -15,8 +15,8 @@ export default function AboutMe() {
             <h3>Formas de contato</h3>
             <ul>
                 <li><div id="icon"><a href="https://www.linkedin.com/in/gabriel-simionato-293528218/" hrefLang="pt-br" target="_blank"><LinkedInIcon/>Linkedin</a></div></li>
-                <li><div id="icon" ><a href="google.com" hrefLang="pt-br"><GitHubIcon/>Linkedin</a></div></li>
-                <li><div id="icon"><a href="google.com" hrefLang="pt-br"><EmailIcon/>Linkedin</a></div></li>
+                <li><div id="icon" ><a href="https://github.com/simionatoambrosio" hrefLang="pt-br" target="_blank"><GitHubIcon/>GitHub</a></div></li>
+                <li><div id="icon"><a href="google.com" hrefLang="pt-br" target="_blank"><EmailIcon/>E-mail</a></div></li>
             </ul>
         </div>
     )

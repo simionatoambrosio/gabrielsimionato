@@ -17,8 +17,15 @@
 .AboutMe li {
     font-size: 2.2rem;
     font-weight: 600;
-    color: #8000FF;
     margin: 10px 0px;
+}
+
+.AboutMe a:hover {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #8000FF;
+    margin-left: 2rem;
+    transition: 0.4s;
 }
 
 .AboutMe a {
@@ -26,14 +33,12 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    
-}
-
-.AboutMe a:visited {
-    color: #8000FF;
+    color: #101010;
 }
 
 #icon svg{
     width: 36px;
     height: 36px;
+    margin-right: 1rem;
 }
+
