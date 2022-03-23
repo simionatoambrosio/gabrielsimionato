@@ -36,20 +36,32 @@
 
 
 @media screen and (min-width: 768px) and (max-width:1023px){
-    .Fatec {
+    .Fatec, .Etec, .Objetivo {
         display: flex;
         flex-direction: column;
+    }
+
+    .education-description h4, p{
+        margin-left: 0px;
+    }
+
+    .fatec-description p {
+        margin: 0px;
     }
   }
   
   
   @media screen and (max-width:767px){
-    .Fatec {
+    .Fatec, .Etec, .Objetivo {
         display: flex;
         flex-direction: column;
     }
 
-    .fatec-description p {
-        margin: 0px;
+    .education-description h4, p{
+        margin-left: 0px;
+    }
+
+    .education-description p,h4 {
+        margin: 5px 0px 5px 0px;
     }
   }
