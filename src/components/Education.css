@@ -7,6 +7,7 @@
 .Fatec, .Etec, .Objetivo {
     display: flex;
     flex-direction: row;
+    gap: 5rem;
 }
 
 .education-logo {
@@ -14,8 +15,12 @@
     min-width: 150px;
 }
 
-.education-description p {
+/* .education-description p {
     margin: 10px;
+} */
+
+.education-description h3 {
+    margin: 0;
 }
 
 .education-description h4 {

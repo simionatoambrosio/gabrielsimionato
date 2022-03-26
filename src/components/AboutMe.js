@@ -12,9 +12,9 @@ import curriculo from './doc.pdf'
 export default function AboutMe() {
     return(
         <div className="AboutMe" id="about-me">
-            <h1><span>Sobre mim</span></h1>
+            <h2><span>Sobre mim</span></h2>
             <p>Meu nome é Gabriel Simionato Ambrósio,  </p>
-            <h3>Formas de contato</h3>
+            <p>Formas de contato que eu utilizo:</p>
             <ul>
                 <li><div id="icon"><a href="https://www.linkedin.com/in/gabriel-simionato-293528218/" hrefLang="pt-br" target="_blank"><LinkedInIcon/>Linkedin</a></div></li>
                 <li><div id="icon" ><a href="https://github.com/simionatoambrosio" hrefLang="pt-br" target="_blank"><GitHubIcon/>GitHub</a></div></li>
