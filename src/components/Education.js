@@ -14,7 +14,7 @@ export default function Education() {
             <h3>Ensino Superior</h3>
             <div className="Fatec">
                 <div className="education-logo">
-                    <img src={FatecLogo}></img>
+                    <img src={FatecLogo} alt="logotipo da FATEC"></img>
                 </div>
                 <div className="education-description">
                     <h4>Faculdade de Tecnologia de São Paulo</h4>
@@ -26,7 +26,7 @@ export default function Education() {
             <h3>Ensino Tecníco</h3>
             <div className="Etec">
                 <div className="education-logo">
-                    <img src={EtecLogo}></img>
+                    <img src={EtecLogo} alt="logotipo da ETEC"></img>
                 </div>
                 <div className="education-description">
                     <h4>Técnico em Desenvolvimento de Sistemas</h4>
@@ -38,7 +38,7 @@ export default function Education() {
             <h3>Ensino Médio</h3>
             <div className="Objetivo">
                 <div className="education-logo">
-                    <img src={ObjetivoLogo}></img>
+                    <img src={ObjetivoLogo} alt="logotipo do Colégio Objetivo"></img>
                 </div>
                 <div className="education-description">
                     <h4>Ensino Médio + Robótica com Lego MindStorms</h4>
