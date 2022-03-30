@@ -10,9 +10,9 @@ export default function Education() {
     return(
         <div className="Education" id="education">
             <h1><span>Formação Acadêmica</span></h1>
-            <p>Algum texto q eu vo escrever e etc</p>
+            <p>Essas são as intituições que estudei ou estou estudando:</p>
 
-            <h2>Ensino Superior</h2>
+            {/* <h2>Ensino Superior</h2> */}
             <div className="Fatec">
                 <div className="education-logo">
                     <img src={FatecLogo} alt="logotipo da FATEC"></img>
@@ -24,7 +24,7 @@ export default function Education() {
                 </div>
             </div>
 
-            <h2>Ensino Tecníco</h2>
+            {/* <h2>Ensino Tecníco</h2> */}
             <div className="Etec">
                 <div className="education-logo">
                     <img src={EtecLogo} alt="logotipo da ETEC"></img>
@@ -36,7 +36,7 @@ export default function Education() {
                 </div>
             </div>
 
-            <h2>Ensino Médio</h2>
+            {/* <h2>Ensino Médio</h2> */}
             <div className="Objetivo">
                 <div className="education-logo">
                     <img src={ObjetivoLogo} alt="logotipo do Colégio Objetivo"></img>

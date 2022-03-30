@@ -12,9 +12,22 @@ import curriculo from './doc.pdf'
 export default function AboutMe() {
     return(
         <div className="AboutMe" id="about-me">
-            <h2><span>Sobre mim</span></h2>
-            <p>Meu nome é Gabriel Simionato Ambrósio,  </p>
-            <p>Formas de contato que eu utilizo:</p>
+            <h2>Sobre mim</h2>
+            <p> Meu nome é <span>Gabriel Simionato Ambrósio</span>, tenho <span>17 anos</span> e sou apaixonado por <span>tecnologia e design</span>.
+                Atualmente estou em busca de um <span>estágio</span>, principalmente na área de <span>Front-End</span>.
+            </p>
+
+            <p>
+                Estou cursando <span>Análise e Desenvolvimento de Sistemas</span> na FATEC. Além disso
+                tenho bons conhecimentos em <span>HTML, CSS </span>e estou estudando <span>JavaScript, React e Python</span>.
+            </p>
+
+            <p>
+                Por gostar muito da parte que o cliente interage nos sites, acabei me interessando também em <span>UX/UI</span> para
+                me auxiliar a construir interfaces mais intuitivas.
+            </p>
+
+            <p>Essas são algumas formas de me contatar ou ver meus trabalhos:</p>
             <ul>
                 <li><div id="icon"><a href="https://www.linkedin.com/in/gabriel-simionato-293528218/" hrefLang="pt-br" target="_blank"><LinkedInIcon/>Linkedin</a></div></li>
                 <li><div id="icon" ><a href="https://github.com/simionatoambrosio" hrefLang="pt-br" target="_blank"><GitHubIcon/>GitHub</a></div></li>

@@ -4,6 +4,15 @@
     text-align: left;
 }
 
+.AboutMe p {
+    line-height: 170%;
+    text-align: justify;
+}
+
+.AboutMe span{
+    color: #8000FF;
+}
+
 .AboutMe ul {
     list-style-type: none;
     display: inline-block;
