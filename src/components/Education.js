@@ -6,9 +6,20 @@ import FatecLogo from './images/fatec.png'
 import EtecLogo from './images/etec.png'
 import ObjetivoLogo from './images/objetivo.png'
 
+import { useEffect } from 'react';
+
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 export default function Education() {
+    useEffect(() => {
+        Aos.init({ 
+            duration: 1000,
+            once: true
+         })
+      }, []);
     return(
-        <div className="Education" id="education">
+        <div className="Education" id="education" data-aos="fade-up">
             <h1><span>Formação Acadêmica</span></h1>
             <p>Essas são as intituições que estudei ou estou estudando:</p>
 
