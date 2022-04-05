@@ -19,12 +19,12 @@ export default function Education() {
          })
       }, []);
     return(
-        <div className="Education" id="education" data-aos="fade-up">
+        <div className="Education" id="education">
             <h1><span>Formação Acadêmica</span></h1>
             <p>Essas são as intituições que estudei ou estou estudando:</p>
 
             {/* <h2>Ensino Superior</h2> */}
-            <div className="Fatec">
+            <div className="Fatec" data-aos="fade-up">
                 <div className="education-logo">
                     <img src={FatecLogo} alt="logotipo da FATEC"></img>
                 </div>
@@ -36,7 +36,7 @@ export default function Education() {
             </div>
 
             {/* <h2>Ensino Tecníco</h2> */}
-            <div className="Etec">
+            <div className="Etec" data-aos="fade-up">
                 <div className="education-logo">
                     <img src={EtecLogo} alt="logotipo da ETEC"></img>
                 </div>
@@ -48,7 +48,7 @@ export default function Education() {
             </div>
 
             {/* <h2>Ensino Médio</h2> */}
-            <div className="Objetivo">
+            {/* <div className="Objetivo">
                 <div className="education-logo">
                     <img src={ObjetivoLogo} alt="logotipo do Colégio Objetivo"></img>
                 </div>
@@ -57,7 +57,7 @@ export default function Education() {
                     <p>Concluído</p>
                     <p>Período: fev de 2019 - dez de 2021</p>
                 </div>
-            </div>
+            </div> */}
 
             
         </div>
