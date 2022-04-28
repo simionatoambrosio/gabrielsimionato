@@ -1,0 +1,27 @@
+.project-card {
+    overflow: hidden;
+    border: solid 3px #8000FF;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 0 -3px #ECDAFF, 10px 10px 0 0 #8000FF;
+    margin: 3em 0em;
+}
+
+.project-card img {
+    max-width: 100%;
+    transition: all 1s ease;
+    /* filter: brightness(80%); */
+}
+
+.project-card img:hover {
+    transform: scale(1.08);
+    /* filter: brightness(100%); */
+}
+
+.project-header {
+    margin: 2em;
+}
+
+.project-header a {
+    text-decoration: none;
+}
