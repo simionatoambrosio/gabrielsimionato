@@ -22,26 +22,30 @@ export default function Projects() {
     return (
         <div className="Projects" id="projects">
             <h1><span>Projetos</span></h1>
-            <Project
-                image={PokemonProject}
-                name="React Pokedex"
-                description="Construída utilizando HTML, CSS e JavaScript com o framework React.
+            <div data-aos="fade-up">
+                <Project
+                    image={PokemonProject}
+                    name="React Pokedex"
+                    description="Construída utilizando HTML, CSS e JavaScript com o framework React.
             Aplicada a lógica de componentes, consumo da API Rest pokeapi.co,
             HTML LocalStorage, React Hooks, renderização condicional, Contexts
             e React Router V6."
-                gitlink="github.com/simionatoambrosio/react-pokedex"
-                webpagelink="react-pokedex-five-omega.vercel.app"
-            />
+                    gitlink="github.com/simionatoambrosio/react-pokedex"
+                    webpagelink="react-pokedex-five-omega.vercel.app"
+                />
+            </div>
 
-            <Project
-                image={CalculatorProject}
-                name="React Calculator"
-                description="Construída utilizando HTML, CSS e JavaScript com o framework React.
+            <div data-aos="fade-up">
+                <Project
+                    image={CalculatorProject}
+                    name="React Calculator"
+                    description="Construída utilizando HTML, CSS e JavaScript com o framework React.
                 Componentização de elementos e transmissão de informações entre
                 eles via props."
-                gitlink="github.com/simionatoambrosio/calculator"
-                webpagelink="calculator-with-react-zeta.vercel.app"
-            />
+                    gitlink="github.com/simionatoambrosio/calculator"
+                    webpagelink="calculator-with-react-zeta.vercel.app/"
+                />
+            </div>
         </div>
     )
 }
