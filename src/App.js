@@ -16,9 +16,10 @@ import ReactSwitch from 'react-switch';
 export const ThemeContext = createContext(null)
 
 function App() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState(localStorage.getItem('theme'))
+  console.log(theme)
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"))
+    setTheme((curr) => (curr === "light" ? (localStorage.setItem('theme', 'dark'), localStorage.getItem('theme')) : (localStorage.setItem('theme', 'light'), localStorage.getItem('theme'))))
   }
 
   return (
@@ -27,7 +28,7 @@ function App() {
         <div className='switch'>
           {/* <p>{theme === "light" ? "Light Mode" : "Dark Mode"}</p> */}
           <p>Dark Mode</p>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} uncheckedIcon={false} checkedIcon={false} onColor="#A852FF" onHandleColor="white" />
+          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} uncheckedIcon={false} checkedIcon={false} onColor="#A852FF" onHandleColor="#FFF" />
         </div>
         <Profile data-aos="fade-up" />
         <MenuOptions data-aos="fade-up" />
