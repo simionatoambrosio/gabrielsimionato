@@ -4,6 +4,22 @@
     text-align: left;
 }
 
+#dark .Education {
+    color: white;
+}
+
+#dark .Fatec img {
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+#dark .Etec img {
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+}
+
 .Fatec, .Etec, .Objetivo {
     display: flex;
     flex-direction: row;

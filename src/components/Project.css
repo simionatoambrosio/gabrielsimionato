@@ -1,10 +1,20 @@
 .project-card {
     overflow: hidden;
-    border: solid 3px #8000FF;
+    border: solid 3px var(--lightpurple);
     border-radius: 20px;
     background-color: white;
-    box-shadow: 10px 10px 0 -3px #ECDAFF, 10px 10px 0 0 #8000FF;
+    box-shadow: 10px 10px 0 -3px var(--purplebg), 10px 10px 0 0 var(--lightpurple);
     margin: 3em 0em;
+}
+
+#dark .project-card {
+    border: solid 3px var(--darkpurple);
+    background-color: var(--darkbg);
+    box-shadow: 10px 10px 0 -3px var(--darkbg), 10px 10px 0 0 var(--darkpurple);
+}
+
+#dark .project-card a{
+    color: var(--darkpurple);
 }
 
 .project-card img {

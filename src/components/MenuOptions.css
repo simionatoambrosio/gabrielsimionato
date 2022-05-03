@@ -9,9 +9,8 @@
     padding: 1rem;
     margin-top: 3rem;
 
-    background-color: #ECDAFF;
+    background-color: var(--purplebg);
     border-radius: 10px;
-    
 }
 
 .MenuOptions li {
@@ -21,14 +20,18 @@
 .MenuOptions a {
     position: relative;
     text-decoration: none;
-    color: #8000ff;
+    color: var(--lightpurple);
     padding: 0 10px;
+}
+
+#dark .MenuOptions a {
+    color: var(--lightpurple);
 }
 
 .MenuOptions a:after {
     content: "";
     position: absolute;
-    background-color: #8000ff;
+    background-color: var(--lightpurple);
     height: 3px;
     width: 0;
     left: 0;
@@ -38,7 +41,6 @@
 
 .MenuOptions a:hover:after {
     width: 100%;
-    
 }
 
 @media screen and (max-width:767px){

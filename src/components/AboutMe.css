@@ -9,7 +9,11 @@
 }
 
 .AboutMe span{
-    color: #8000FF;
+    color: var(--lightpurple);
+}
+
+#dark .AboutMe span {
+    color: var(--darkpurple);
 }
 
 .AboutMe ul {
@@ -19,7 +23,6 @@
     margin: 0;
     padding: 0;
     border-radius: 10px;
-    
 }
 
 .AboutMe li {
@@ -31,7 +34,15 @@
 #icon a:hover {
     font-size: 2.2rem;
     font-weight: 600;
-    color: #8000FF;
+    color: var(--lightpurple);
+    margin-left: 2rem;
+    transition: 0.4s;
+}
+
+#dark #icon a:hover {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--darkpurple);
     margin-left: 2rem;
     transition: 0.4s;
 }
@@ -41,7 +52,15 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    color: #101010;
+    color: var(--darkbg);
+}
+
+#dark .AboutMe a {
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    color: var(--lightbg);
 }
 
 #icon svg{
@@ -51,27 +70,34 @@
 }
 
 #download-button {
-    background-color: #ECDAFF;
-    color: #8000FF;
+    background-color: var(--purplebg);
+    color: var(--lightpurple);
     border: none;
     padding: 1rem;
     font-size: 1.8rem;
     margin-top: 1rem;
     border-radius: 10px 10px 0px 0px;
-
     position: relative;
     text-decoration: none;
-    color: #8000ff;
+}
+
+#dark #download-button {
+    background-color: var(--purplebg);
+    color: var(--darkpurple);
 }
 
 #download-button a {
-    color: #8000FF;
+    color: var(--lightpurple);
+}
+
+#dark #download-button a {
+    color: var(--lightpurple);
 }
 
 #download-button a:after {
     content: "";
     position: absolute;
-    background-color: #8000ff;
+    background-color: var(--lightpurple);
     height: 3px;
     width: 0;
     left: 0;
@@ -79,7 +105,15 @@
     transition: 0.3s;
 }
 
+#dark #download-button a:after {
+    color: var(--darkpurple);
+}
+
 #download-button a:hover:after {
     width: 100%;
+}
+
+#dark .AboutMe {
+    color: white;
 }
 
