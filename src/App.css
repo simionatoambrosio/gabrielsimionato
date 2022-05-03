@@ -64,7 +64,7 @@ body {
 
 .switch {
   display: flex;
-  height: 5px;
+  height: 55px;
   justify-content: flex-end;
   align-items: center;
   gap: 1em;
@@ -75,15 +75,15 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px){
-  #light, #dark {
-    margin: 1% 5%;
+  .App {
+    padding: 3% 5%;
   }
 }
 
 
 @media screen and (max-width:767px){
-  #light, #dark {
-    margin: 10px 5%;
+  .App {
+    padding: 10px 5%;
   }
 
   html {
