@@ -35,3 +35,7 @@
 .project-header a {
     text-decoration: none;
 }
+
+.project-header a:hover {
+    text-decoration: underline;
+}

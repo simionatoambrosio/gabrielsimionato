@@ -27,7 +27,7 @@ function App() {
         <div className='switch'>
           {/* <p>{theme === "light" ? "Light Mode" : "Dark Mode"}</p> */}
           <p>Dark Mode</p>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} uncheckedIcon={false} checkedIcon={false} onColor="#A852FF" onHandleColor="white"/>
+          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} uncheckedIcon={false} checkedIcon={false} onColor="#A852FF" onHandleColor="white" />
         </div>
         <Profile data-aos="fade-up" />
         <MenuOptions data-aos="fade-up" />

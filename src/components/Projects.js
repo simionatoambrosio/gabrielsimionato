@@ -22,7 +22,7 @@ export default function Projects() {
     return (
         <div className="Projects" id="projects">
             <h1><span>Projetos</span></h1>
-            <div data-aos="fade-up">
+            <div data-aos="fade-right">
                 <Project
                     image={PokemonProject}
                     name="React Pokedex"
@@ -36,7 +36,7 @@ export default function Projects() {
                 />
             </div>
 
-            <div data-aos="fade-up">
+            <div data-aos="fade-left">
                 <Project
                     image={CalculatorProject}
                     name="React Calculator"
