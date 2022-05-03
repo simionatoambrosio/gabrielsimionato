@@ -40,9 +40,9 @@ export default function AboutMe() {
 
             <p>Essas são algumas formas de me contatar ou ver meus trabalhos:</p>
             <ul>
-                <li data-aos="fade-right"><div id="icon"><a href="https://www.linkedin.com/in/gabriel-simionato-293528218/" hrefLang="pt-br" target="_blank"><LinkedInIcon/>Linkedin</a></div></li>
-                <li data-aos="fade-right"><div id="icon" ><a href="https://github.com/simionatoambrosio" hrefLang="pt-br" target="_blank"><GitHubIcon/>GitHub</a></div></li>
-                <li data-aos="fade-right"><div id="icon"><a href="google.com" hrefLang="pt-br" target="_blank"><EmailIcon/>E-mail</a></div></li>
+                <li data-aos="fade-right" data-aos-delay="100"><div id="icon"><a href="https://www.linkedin.com/in/gabriel-simionato-293528218/" hrefLang="pt-br" target="_blank"><LinkedInIcon/>Linkedin</a></div></li>
+                <li data-aos="fade-right" data-aos-delay="200"><div id="icon" ><a href="https://github.com/simionatoambrosio" hrefLang="pt-br" target="_blank"><GitHubIcon/>GitHub</a></div></li>
+                <li data-aos="fade-right" data-aos-delay="300"><div id="icon"><a href="google.com" hrefLang="pt-br" target="_blank"><EmailIcon/>E-mail</a></div></li>
             </ul>
             <br></br>
             <button id="download-button" data-aos="fade-up"><a href={curriculo} download="Currículo Gabriel Simionato">Baixe meu currículo!</a></button>

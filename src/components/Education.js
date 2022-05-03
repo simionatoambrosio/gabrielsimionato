@@ -24,7 +24,7 @@ export default function Education() {
             <p>Essas são as intituições que estudei ou estou estudando:</p>
 
             {/* <h2>Ensino Superior</h2> */}
-            <div className="Fatec" data-aos="fade-up">
+            <div className="Fatec" data-aos="fade-up" data-aos-delay="100">
                 <div className="education-logo">
                     <img src={FatecLogo} alt="logotipo da FATEC"></img>
                 </div>
@@ -36,7 +36,7 @@ export default function Education() {
             </div>
 
             {/* <h2>Ensino Tecníco</h2> */}
-            <div className="Etec" data-aos="fade-up">
+            <div className="Etec" data-aos="fade-up" data-aos-delay="200">
                 <div className="education-logo">
                     <img src={EtecLogo} alt="logotipo da ETEC"></img>
                 </div>

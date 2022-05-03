@@ -32,6 +32,7 @@ export default function Projects() {
             e React Router V6."
                     gitlink="github.com/simionatoambrosio/react-pokedex"
                     webpagelink="react-pokedex-five-omega.vercel.app"
+                    data-aos-delay="100"
                 />
             </div>
 
@@ -44,6 +45,7 @@ export default function Projects() {
                 eles via props."
                     gitlink="github.com/simionatoambrosio/calculator"
                     webpagelink="calculator-with-react-zeta.vercel.app/"
+                    data-aos-delay="200"
                 />
             </div>
         </div>
