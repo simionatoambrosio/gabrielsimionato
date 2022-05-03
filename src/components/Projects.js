@@ -36,7 +36,7 @@ export default function Projects() {
                 />
             </div>
 
-            <div data-aos="fade-left">
+            <div data-aos="fade-right">
                 <Project
                     image={CalculatorProject}
                     name="React Calculator"
